@@ -1,3 +1,6 @@
 class Hero extends Sprite{
-  this.direction = 1;
+  constructor(locationY, locationX, imageArray){
+    super(locationY, locationX, imageArray)
+    this.direction = 1;
+  }
 }
